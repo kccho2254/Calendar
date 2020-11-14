@@ -10,7 +10,7 @@ Javascript<br>
 
 
 # Link
-Website: https://github.com/kccho2254/Calendar
+Website: https://kccho2254.github.io/Calendar/
 <br>
 ![screenshot](./05-third-party-apis-homework-demo.gif)
 
