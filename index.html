@@ -1,87 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
-  </head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto+Slab:wght@200&family=Texturina:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Work Day Scheduler</title>
+    </head>
 
-  <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
-      <h2><span id="time-display"></span></h2>
+    <body>
+        <header class="jumbotron">
+            <h1 class="display-3">Work Day Scheduler</h1>
+            <p class="lead">A simple calendar app for scheduling your work day</p>
+            <p id="currentDay" class="lead"></p>
+            <h2>
+                <span id="time-display"></span>
+            </h2>
 
-    </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <div class="col-md-1">9AM</div>
-        <textarea class="col-md-10" id="a"></textarea>
-        <button class="col-md-1 save-button" id="9"></button>
-      </div>
-      <div class="row">
-        <div class="col-md-1">10AM</div>
-        <textarea class="col-md-10" id="b"></textarea>
-        <button class="col-md-1 save-button" id="10"></button>
-      </div>
-      <div class="row">
-        <div class="col-md-1">11AM</div>
-        <textarea class="col-md-10" id="c"></textarea>
-        <button class="col-md-1 save-button" id="11"></button>
-      </div>
-      <div class="row">
-        <div class="col-md-1">12PM</div>
-        <textarea class="col-md-10" id="d"></textarea>
-        <button class="col-md-1 save-button" id="12"></button>
-      </div>
-      <div class="row">
-        <div class="col-md-1">1PM</div>
-        <textarea class="col-md-10" id="e"></textarea>
-        <button class="col-md-1 save-button" id="13"></button>
-      </div>
-      <div class="row">
-        <div class="col-md-1">2PM</div>
-        <textarea class="col-md-10" id="f"></textarea>
-        <button class="col-md-1 save-button" id="14"></button>
-      </div>
-      <div class="row">
-        <div class="col-md-1">3PM</div>
-        <textarea class="col-md-10" id="g"></textarea>
-        <button class="col-md-1 save-button" id="15"></button>
-      </div>
-      <div class="row">
-        <div class="col-md-1">4PM</div>
-        <textarea class="col-md-10" id="h"></textarea>
-        <button class="col-md-1 save-button" id="16"></button>
-      </div>
-      <div class="row">
-        <div class="col-md-1">5PM</div>
-        <textarea class="col-md-10" id="i"></textarea>
-        <button class="col-md-1 save-button" id="17"></button>
-      </div>
-    
-    </div>
+        </header>
+        <div
+            class="container">
+            <!-- Timeblocks go here -->
+            <div class="row">
+                <div class="col-md-1">9AM</div>
+                <textarea class="col-md-10" id="a"></textarea>
+                <button class="col-md-1 save-button" id="9">Save</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1">10AM</div>
+                <textarea class="col-md-10" id="b"></textarea>
+                <button class="col-md-1 save-button" id="10">Save</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1">11AM</div>
+                <textarea class="col-md-10" id="c"></textarea>
+                <button class="col-md-1 save-button" id="11">Save</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1">12PM</div>
+                <textarea class="col-md-10" id="d"></textarea>
+                <button class="col-md-1 save-button" id="12">Save</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1">1PM</div>
+                <textarea class="col-md-10" id="e"></textarea>
+                <button class="col-md-1 save-button" id="13">Save</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1">2PM</div>
+                <textarea class="col-md-10" id="f"></textarea>
+                <button class="col-md-1 save-button" id="14">Save</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1">3PM</div>
+                <textarea class="col-md-10" id="g"></textarea>
+                <button class="col-md-1 save-button" id="15">Save</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1">4PM</div>
+                <textarea class="col-md-10" id="h"></textarea>
+                <button class="col-md-1 save-button" id="16">Save</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1">5PM</div>
+                <textarea class="col-md-10" id="i"></textarea>
+                <button class="col-md-1 save-button" id="17">Save</button>
+            </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./script.js"></script>
-  </body>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
 </html>
