@@ -1,0 +1,27 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "This is a calendar that allows a user to see what hour it is, what day it is, write down things to do for a given day of the week, and ensure those changes are saved to local storage so that they can be accessed at a later time.",
+  "main": "script.js",
+  "dependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-pwa-manifest": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "npm run webpack",
+    "webpack": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kccho2254/Calendar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kccho2254/Calendar/issues"
+  },
+  "homepage": "https://github.com/kccho2254/Calendar#readme"
+}
